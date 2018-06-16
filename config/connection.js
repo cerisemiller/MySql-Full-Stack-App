@@ -24,7 +24,7 @@ if (process.env.JAWSDB_URL) {
 
 connection.connect(function(err) {
 	if (err) {
-		console.error('error conencting: ' + err.stack);
+		console.error('error connecting: ' + err.stack);
 		return;
 	}
 	console.log('connected as id ' + connection.threadId);
